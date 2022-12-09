@@ -1,18 +1,43 @@
 body {
-  background-color: palegreen;
+  background-color: #caffbf;
 }
 
 h1 {
-  color: black;
+  color: #495057;
+  width: 800px;
   text-align: center;
-  font-size: 55px;
-  border: dotted darkgreen 8px
+  font-size: 70px;
+  border: double green 8px;
 }
 
 img {
-  width: 30%;
-  border: dotted blue 8px
+  width: 500px;
+  border: ridge #4f772d 8px;
 }
 
-img
+nav {
+  list-style-type: none;
+  background-color: #52b788;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  padding: 10px;
+  
+}
+li:hover {
+  background-color: #62b6cb;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 8px
 }
