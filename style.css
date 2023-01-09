@@ -10,6 +10,14 @@ h1 {
   border: double green 8px;
 }
 
+h2 {
+  color: #0096c7;
+  width: 800px;
+  text-aligh: center;
+  font-size: 70px;
+  border: double #90dbf4 8px;
+}
+
 img {
   width: 500px;
   border: ridge #4f772d 8px;
